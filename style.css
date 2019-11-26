@@ -1,0 +1,80 @@
+body {
+  background-image: url("./images/women’s-football-in-india-who’s-watching.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: right;
+  padding: 0px 30px;
+  font-family: helvetica;
+}
+
+form {
+  display: inline-block;
+  padding: 70px;
+}
+
+p{
+    color: rgb(255, 0, 0);
+    text-align: left;
+    padding: 0px 40px 0px 40px;
+    margin: 0px
+    
+
+}
+
+
+#central-form {
+  display: block;
+}
+
+input[type="text"],
+[type="date"] {
+  opacity: 0.8;
+  display: block;
+  margin: 0px 40px 0px 40px;
+  padding: 20px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.boxes::-webkit-input-placeholder {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+label{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px 0px;
+    padding: 40px 0px;
+
+}
+
+.invalid{
+    border: 2px solid rgb(255, 0, 0)
+}
+
+.valid{
+    border: 2px solid rgb(43, 255, 0)
+}
+
+div{
+    padding: 0px 20px 30px 20px
+
+}
+
+button[type="submit"] {
+  width: 100px;
+  height: 30px;
+  background: linear-gradient(to left, rgb(184, 24, 24), rgb(54, 98, 243));
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid rgb(0, 26, 110)
+} 
